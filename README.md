@@ -1,11 +1,51 @@
-# ZCW-Microlabs-Git
-* [fork](https://help.github.com/articles/fork-a-repo/) this repository to your personal github account 
-* [clone](https://help.github.com/articles/cloning-a-repository/) your `forked` repository to your local machine
+
+
+
+
+## How to Download
+
+### Part 1 - Forking the Project
+* To _fork_ the project, click the `Fork` button located at the top right of the project.
+
+
+### Part 2 - Navigating to _forked_ Repository
+* Navigate to your github profile to find the _newly forked repository_.
+* Copy the URL of the project to the clipboard.
+
+### Part 3 - Cloning _forked_ repository
+* Clone the repository from **your account** into the `~/dev` directory.
+    * if you do not have a `~/dev` directory, make one by executing the following command:
+        * `mkdir ~/dev`
+    * navigate to the `~/dev` directory by executing the following command:
+        * `cd ~/dev`
+    * clone the project by executing the following command:
+        * `git clone https://github.com/MYUSERNAME/NAMEOFPROJECT`
+
+
+## Make Changes
 * edit the `my-name` file, by adding your name to the file.
-* `git add .` your changes to the list of your `commited` files.
-* `git commit -m "added your-name-here"` your added files to the list of your `staged` files.
-* `git push` your staged files to your remote repository.
-* submit a `pull request` which compares Zipcoder `master` to your forked `master`.
+
+
+
+
+
+
+## How to Submit
+
+### Part 1 -  _Pushing_ local changes to remote repository
+* from a _terminal_ navigate to the root directory of the _cloned_ project.
+* from the root directory of the project, execute the following commands:
+    * add all changes
+        * `git add .`
+    * commit changes to be pushed
+        * `git commit -m 'I have added changes'`
+    * push changes to your repository
+        * `git push -u origin main`
+
+### Part 2 - Submitting assignment
+* from the browser, navigate to the _forked_ project from **your** github account.
+* click the `Pull Requests` tab.
+* select `New Pull Request`
 
 
 ## Whats next?
