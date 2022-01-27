@@ -9,7 +9,7 @@
 
 
 ### Part 2 - Navigating to _forked_ Repository
-* Navigate to your github profile to find the _newly forked repository_.
+* Navigate to **your github account** to find the _newly forked repository_.
 * Copy the URL of the project to the clipboard.
 
 ### Part 3 - Cloning _forked_ repository
@@ -24,10 +24,6 @@
 
 ## Make Changes
 * edit the `my-name` file, by adding your name to the file.
-
-
-
-
 
 
 ## How to Submit
@@ -46,7 +42,3 @@
 * from the browser, navigate to the _forked_ project from **your** github account.
 * click the `Pull Requests` tab.
 * select `New Pull Request`
-
-
-## Whats next?
-The next lab is located [here](https://github.com/Zipcoder/CR-MicroLabs-JavaFundamentals-DanDoBetterDrills).
